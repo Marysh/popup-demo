@@ -2,12 +2,26 @@ $(function () { // dom ready
     $('.popup-modal').magnificPopup({
         type: 'inline',
         preloader: false,
-        focus: '#username',
-        modal: true
+        // modal: true
+
     });
-    $(document).on('click', '.popup-modal-dismiss', function (e) {
-        e.preventDefault();
-        $.magnificPopup.close();
+    $('.open-modal-1').magnificPopup({
+        type: 'inline',
+        preloader: false,
+        // modal: true
+
+    });
+    $('.open-modal-2').magnificPopup({
+        type: 'inline',
+        preloader: false,
+        // modal: true
+
+    });
+    $('.open-modal-image').magnificPopup({
+        type: 'image',
+        preloader: false,
+        // modal: true
+
     });
 });
 

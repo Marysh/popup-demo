@@ -4,38 +4,99 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/my-demo.css">
     <title>popup-demo</title>
 </head>
 <body>
-<a class="popup-modal" href="#test-modal">Open modal</a>
+<div class="container">
+    <h1>Test popup</h1>
+    <a class="popup-modal btn btn-warning" href="#test-modal">Open modal</a>
 
+
+    <br><br>
+
+    <div class="popup-gallery">
+        <a href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" title="The Cleaner"><img
+                src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" title="Winter Dance"><img
+                src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" title="The Uninvited Guest"><img
+                src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg" title="Oh no, not again!"><img
+                src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg" title="Swan Lake"><img
+                src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg" title="The Shake"><img
+                src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg" title="Who's that, mommy?"><img
+                src="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_s.jpg" width="75" height="75"></a>
+    </div>
+</div>
+<br><br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <a class="btn btn-danger btn-lg open-modal-1" href="#modal-1">modal-1</a>
+        </div>
+        <div class="col-6">
+            <a class="btn btn-primary btn-lg open-modal-2" href="#modal-2">modal-2</a>
+        </div>
+    </div>
+</div>
+
+<br><br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <a class="btn btn-primary btn-lg open-modal-image"
+               href="https://greenglobaltravel.com/wp-content/uploads/Guanaco_Patagonia-edited.jpg">image</a>
+        </div>
+    </div>
+</div>
+
+<!--popup content start-->
 <div id="test-modal" class="mfp-hide white-popup-block popup">
-    <h1>Modal dialog</h1>
-    <p>You won't be able to dismiss this by usual means (escape or
-        click button), but you can close it programatically based on
-        user choices or actions.</p>
-    <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+    <h2>Lorem ipsum dolor sit amet.</h2>
 </div>
-<div class="popup-gallery">
-    <a href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" title="The Cleaner"><img src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg" width="75" height="75"></a>
-    <a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" title="Winter Dance"><img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg" width="75" height="75"></a>
-    <a href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" title="The Uninvited Guest"><img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg" width="75" height="75"></a>
-    <a href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg" title="Oh no, not again!"><img src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_s.jpg" width="75" height="75"></a>
-    <a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg" title="Swan Lake"><img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg" width="75" height="75"></a>
-    <a href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg" title="The Shake"><img src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_s.jpg" width="75" height="75"></a>
-    <a href="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg" title="Who's that, mommy?"><img src="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_s.jpg" width="75" height="75"></a>
+<div id="modal-1" class="mfp-hide white-popup-block popup">
+    <h2>Lorem ipsum dolor. #1</h2>
 </div>
+<div id="modal-2" class="mfp-hide white-popup-block popup">
+    <h2 class="text-md-center">#2</h2>
+    <div class="row">
+        <div class="col-12 col-xl-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eveniet ex fugit laudantium nostrum
+                obcaecati odit quo, tempore totam voluptas. Animi commodi consequuntur maiores mollitia natus quod
+                recusandae temporibus. Assumenda dignissimos esse id ipsam libero maiores, quidem? Officia, temporibus,
+                unde!</p>
+        </div>
+        <div class="col-12 col-xl-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eveniet ex fugit laudantium nostrum
+                obcaecati odit quo, tempore totam voluptas. Animi commodi consequuntur maiores mollitia natus quod
+                recusandae temporibus. Assumenda dignissimos esse id ipsam libero maiores, quidem? Officia, temporibus,
+                unde!</p>
+        </div>
+    </div>
+</div>
+<!--popup content end-->
 
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-<script src="js/jquery.magnific-popup.js" ></script>
-<script src="js/my-demo.js" ></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/my-demo.js"></script>
 </body>
 </html>

@@ -1,7 +1,11 @@
 .popup {
     background-color: #FFFFFF;
     width: 600px;
-    text-align: center;
     margin: 0 auto;
     padding: 40px;
+}
+@media (min-width: 1200px) {
+    .popup {
+        width: 800px;
+    }
 }
